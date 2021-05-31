@@ -1,4 +1,4 @@
-package com.geekagain;
+package com.geekagain.stopthread;
 
 /**
  * while循环在try块里，如果try在while循环里时，应该在catch块里重新设置一下中断标示

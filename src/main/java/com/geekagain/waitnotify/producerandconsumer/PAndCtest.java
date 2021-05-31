@@ -1,7 +1,8 @@
 package com.geekagain.waitnotify.producerandconsumer;
 
 /**
- * @author 邱润泽 bullock
+ * 测试生产者消费者模型
+ * @author hly
  */
 public class PAndCtest {
 

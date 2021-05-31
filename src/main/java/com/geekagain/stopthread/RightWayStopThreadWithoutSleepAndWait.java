@@ -1,4 +1,4 @@
-package com.geekagain;
+package com.geekagain.stopthread;
 
 /**
  * 没有sleep和wait如何中断线程
@@ -20,7 +20,7 @@ public class RightWayStopThreadWithoutSleepAndWait implements Runnable{
         //创建一个重写了run函数的线程对象
         Thread thread =new Thread(new RightWayStopThreadWithoutSleepAndWait());
         thread.start();
-        Thread.sleep(1000);
+        Thread.sleep(10);
         //发送中断请求
         thread.interrupt();
         System.out.println("thread is stopping...");
